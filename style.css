@@ -1,0 +1,120 @@
+body {
+    font-size: 30pt;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    line-height: 1.8;
+    color: #333;
+}
+
+h1 {
+	text-align: center;
+	color: grey;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+input {
+	display: block;
+	color: #333;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 700px;
+    height: 150px;
+    font-size: 40pt;
+    font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+    border:none;
+    font-weight: 400;
+
+}
+
+select {
+	background-color: white;
+	border-width: 1px;
+	border-color: #ccc;
+	color: #555;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 700px;
+    height: 100px;
+    padding-left: 30px;
+    font-size: 30pt;
+    font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+    font-weight: 400;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+}
+
+.select {
+	background-color: green;
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 700px;
+    height: 100px;
+    border-radius: 8px;
+    border-width: 10px;
+    border-color: green;
+}
+
+.select::after {
+	content:"▼";
+	color: #555;
+  	pointer-events: none;
+  	margin-left: auto;
+    margin-right: 30px;
+    margin-top: -105px;
+    display: block;
+    text-align: right;
+    position: relative;
+    font-size: 22pt;
+
+}
+
+input:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+.letterWord {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+}
+
+#result {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    max-width: 700px;
+	border-radius: 8px;
+}
+
+#sliders {
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 700px;
+    font-size: 15pt;
+}
+
+.sliders {
+	height: 15px;
+	margin-bottom: 0px;
+	width: 150px;
+	margin-left: 0px;
+}
