@@ -14,6 +14,7 @@ $('#form').on('keyup change', 'input, select, textarea', function(){
 const alphabet = Array("A","Ä","B","C","D","E","F","G","H","I","J","K","L","M","N","O","Ö","P","Q","R","S","T","U","Ü","V","W","X","Y","Z"," ");
 const natoAlphabet = Array("alpha","?","bravo","charlie","delta","echo","foxtrot","golf","hotel","india","juliet","kilo","lima","mike","november","oscar","?","papa","quebec","romeo","sierra","tango","uniform","?","victor","whiskey","x-ray","yankee","zulu","-","?");
 const germanAlphabet = Array("anton","ärger","berta","cäsar","dora","emil","friedrich","gustav","heinrich","ida","julius","kaufmann","ludwig","martha","nordpol","otto","ökonom","paula","quelle","richard","samuel","theodor","ulrich","übermut","viktor","wilhelm","xanthippe","ypsilon","zacharias","-","?");
+const USFinancialAlphabet = Array("adam","?","bob","carol","david","eddie","frank","george","harry","ike","jim","kenny","larry","mary","nancy","oliver","?","peter","quincy","roger","sam","thomas","uncle","?","vincent","william","xavier","yogi","zachary","-","?");
 
 function getInput() {
 	text = document.getElementById("text").value.toUpperCase();
@@ -44,6 +45,10 @@ function printResult() {
   			case "german alphabet":
         		var letterWord = document.createTextNode(germanAlphabet[letterID]);
         		var alphabet = germanAlphabet;
+        		break;
+        	case "us financial alphabet":
+        		var letterWord = document.createTextNode(USFinancialAlphabet[letterID]);
+        		var alphabet = USFinancialAlphabet;
         		break;
 		}
 		var newSpan = document.createElement("div");
