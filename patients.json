@@ -1,29 +1,23 @@
 [
     {
-        "city": "Gabriel Adorf", 
-        "growth_from_2000_to_2013": "4.8%", 
-        "latitude": 40.7127837, 
-        "longitude": -74.0059413, 
-        "population": "8405837", 
-        "rank": "1", 
-        "state": " "
+        "name": "Gabriel",
+        "last_name": "Adorf",
+        "birth_date": "05.12.1990",
+        "phone_number": "015737654210", 
+        "insurance_number": "MO743568152", 
     }, 
     {
-        "city": "Henning Dodenhof", 
-        "growth_from_2000_to_2013": "4.8%", 
-        "latitude": 34.0522342, 
-        "longitude": -118.2436849, 
-        "population": "3884307", 
-        "rank": "2", 
-        "state": " "
-    }, 
+        "name": "Henning",
+        "last_name": "Dodenhof",
+        "birth_date": "01.01.2000",
+        "phone_number": "015737654210", 
+        "insurance_number": "MO743568152", 
+    },
     {
-        "city": "Matthias Lau", 
-        "growth_from_2000_to_2013": "-6.1%", 
-        "latitude": 41.8781136, 
-        "longitude": -87.6297982, 
-        "population": "2718782", 
-        "rank": "3", 
-        "state": " "
-    }
+        "name": "Matthias",
+        "last_name": "Lau",
+        "birth_date": "01.01.2000",
+        "phone_number": "015737654210", 
+        "insurance_number": "MO743568152", 
+    },
 ]
